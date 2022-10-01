@@ -1,0 +1,64 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <title>Bootstrap Quiz</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">   
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>  
+    
+</head>  
+<body>  
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm bg-dark fixed-top" style="display:flex; flex-direction: row; justify-content: space-between;">  
+            <div class="navbar-header form-inline " style="display:flex; flex-direction: row;">  
+                <a class="navbar-brand text-muted" href="#">Fitness Buff</a>  
+                <ul class="nav navbar-nav">  
+                    <li><a href="#" class="text-muted px-2">Home</a></li>  
+                    <li><a href="#" class="text-muted px-2">About</a></li>  
+                    <li><a href="#" class="text-muted px-2">Contact Us</a></li>  
+                    <li class="dropdown"><a class="dropdown-toggle text-muted px-2" data-toggle="dropdown" href="#">Learn More <span class="caret"></span></a>  
+                        <ul class="dropdown-menu">  
+                            <li><a href="#" class="text-muted">Ectomorp</a></li>  
+                            <li><a href="#" class="text-muted">Mesomorp</a></li>  
+                            <li><a href="#" class="text-muted">Endomorp</a></li>  
+                        </ul>  
+                    </li> 
+                </ul>
+            </div>
+            <form class="form-inline" action="/action_page.php">
+                <input class="form-control" type="text" placeholder="Search">
+                <button class="btn btn-secondary" type="submit">Search</button>
+            </form>       
+        </nav>  
+    </div>
+    <div class="jumbotron">  
+        <h1>Welcome to Fitness Buff</h1>        
+        <p>There are three main body types that people have: mesomorph, ectomorph, and endomorph. In this lesson, take a look at these body types, and explore whether or not we can change our body type.</p> 
+        <button style="color: white; margin-top: 50px;"class="bg-dark">Learn More</button> 
+    </div>  
+    <div class="container d-flex flex-row justify-content-between" style="width:100% ;">
+        <div class="jumbotron d-flex flex-column " style="width:30%; overflow-wrap: break-word; text-align: center;  " >
+            <h3>Ectomorp Body </h3>
+            <p class="text-lg-left">Ectomorphs are long and lean, with little body fat, and little muscle. They have a hard time gaining weight. Fashion models and basketball players fit this category.</p>
+            <button style="margin-top:95px; color: white;" class="bg-dark">See More</button>
+        </div>
+        <div class="jumbotron d-flex flex-column" style="width:30% ; overflow-wrap: break-word; text-align: center;">
+            <h3>Mesomorp Body </h3>
+            <p>Mesomorph refers to body types with a naturally high muscle-to-fat ratio. People with this body type typically respond well to weight training, finding it easier than other people to build and maintain muscle. They may also find it easier to gain or lose weight.</p>
+            <button style="margin-top:22px; color: white;" class="bg-dark">See More</button>
+        </div>
+        <div class="jumbotron d-flex flex-column" style="width:30% ; overflow-wrap: break-word; text-align:center;">
+            <h3>Endomorp Body</h3> 
+            <p>aEndomorphs are said to have a higher percentage of body fat and less muscle mass. They're often heavier and rounder but do not necessarily have obesity. Because of their physical makeup, people with endomorphic bodies are more sensitive to calorie consumption than people with other body types.</p>
+            <button style="color: white;"class="bg-dark">See More</button> 
+        </div>
+    </div>     
+    <div class="container-fluid bg-dark">
+        <p class="text-muted">@Bootstrap Quiz </p>
+    </div>
+</div>  
+</body>  
+</html>  
